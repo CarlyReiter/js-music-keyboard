@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: black;   
+  background-color: black;
 }
 
 .instrument {
@@ -12,7 +12,7 @@ body {
   margin: 5rem auto;
 }
 
-.note {
+button {
   cursor: pointer;
   font-size: 3rem;
   width: 8rem;
@@ -27,6 +27,7 @@ body {
 .c { background-color: #3e181b; color: #db1d2d; }
 .c:hover { background-color: #661920; }
 .c:active, .c.active { background-color: #db1d2d; }
+audio .c:active { background-color: #db1d2d; }
 
 .d { color: #f0421c; background-color: #422018; }
 .d:hover { background-color: #6e2819; }
